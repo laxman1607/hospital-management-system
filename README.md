@@ -36,8 +36,6 @@ Spring Boot REST API (JWT Secured)
 ↓
 MySQL / PostgreSQL Database
 
-yaml
-Copy code
 
 ---
 
@@ -96,8 +94,7 @@ hospital-management-system/
 │
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
@@ -117,65 +114,69 @@ Copy code
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/laxman1607/hospital-management-system.git
 cd hospital-management-system
-2️⃣ Run Backend
-bash
-Copy code
+---
+
+### 2️⃣ Run Backend
+
 cd backend
 mvn spring-boot:run
-Backend will start at:
+Backend will start at: http://localhost:8080
+---
+### 3️⃣ Run Frontend
 
-arduino
-Copy code
-http://localhost:8080
-3️⃣ Run Frontend
-bash
-Copy code
 cd frontend/hospital-management-frontend
 npm install
 npm start
-Frontend will start at:
+Frontend will start at: http://localhost:3000
+---
 
-arduino
-Copy code
-http://localhost:3000
-📡 API Highlights
-Endpoint	Description
-/login	User authentication
-/register	User registration
-/book-appointment	Book appointment
-/view-appointments	View appointment history
-/manage-doctors	Admin doctor management
+## 📡 API Highlights
 
-🔐 Security
-JWT-based authentication
+| Endpoint | Description |
+|----------|-------------|
+| `/login` | User authentication |
+| `/register` | User registration |
+| `/book-appointment` | Book appointment |
+| `/view-appointments` | View appointment history |
+| `/manage-doctors` | Admin doctor management |
+---
 
-Role-based access control
 
-Encrypted password storage
+## 🔐 Security
 
-Protected REST APIs
+- JWT-based authentication  
+- Role-based access control  
+- Encrypted password storage  
+- Protected REST APIs  
 
-🧪 Future Enhancements
- Telemedicine (video consultation)
+---
+## 🧪 Future Enhancements
 
- SMS / Email notifications
+- Telemedicine (video consultation)  
+- SMS / Email notifications  
+- Analytics dashboard  
+- Docker deployment  
+- Cloud hosting (AWS)  
 
- Analytics dashboard
+ ---
 
- Docker deployment
+## 🌍 GitHub Repository
 
- Cloud hosting (AWS)
-
-🌍 GitHub Repository
 🔗 https://github.com/laxman1607/hospital-management-system
 
-👨‍💻 Author
-Laxman Yabaji
-Full-Stack Java Developer
-Final-Year Computer Science Student
+---
+## 👨‍💻 Author
 
-📜 License
-This project is licensed under the MIT License.
+**Laxman Yabaji**  
+Full-Stack Java Developer  
+Final-Year Computer Science Student  
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+
